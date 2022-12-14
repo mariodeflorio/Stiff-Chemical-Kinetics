@@ -337,7 +337,7 @@ options = odeset('RelTol',IterTol);
 % test the automatic detection of a DAE.
 
 tStart = tic;
-[t_15s,y_15s] = ode15s(@akzonobel_diversaversione_ode15s_function, t_tot',y0_ode15s,options);
+[t_15s,y_15s] = ode15s(@akzonobel_ode15s_function, t_tot',y0_ode15s,options);
 ode15s_elapsedtime = toc(tStart) ;
 
 fprintf('The elapsed time for ode15s is: %g \n', ode15s_elapsedtime );
