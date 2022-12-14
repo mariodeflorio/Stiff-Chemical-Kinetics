@@ -8,3 +8,15 @@ For more information, please refer to the following: <br>
 <li>De Florio, Mario, Enrico Schiassi, and Roberto Furfaro. "<a href="https://doi.org/10.1063/5.0086649">Physics-informed neural networks and functional interpolation for stiff chemical kinetics</a>." Chaos: An Interdisciplinary Journal of Nonlinear Science 32, no. 6 (2022): 063107.</li>
 </ul>
 
+## Citation
+
+    @article{de2022physics,
+      title={Physics-informed neural networks and functional interpolation for stiff chemical kinetics},
+      author={De Florio, Mario and Schiassi, Enrico and Furfaro, Roberto},
+      journal={Chaos: An Interdisciplinary Journal of Nonlinear Science},
+      volume={32},
+      number={6},
+      pages={063107},
+      year={2022},
+      publisher={AIP Publishing LLC}
+    }
