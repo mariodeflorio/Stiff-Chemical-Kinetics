@@ -1,4 +1,4 @@
-function dydt = akzonobel_diversaversione_ode15s_function(t,y)
+function dydt = akzonobel_ode15s_function(t,y)
 %akzonobel_ode15s_function  Evaluate the Chemical Akzo Nobel problem
 %
 % Authors:
