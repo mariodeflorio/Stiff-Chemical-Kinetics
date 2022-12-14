@@ -4,7 +4,7 @@ format long
 %--------------------------------------------------------------------------
 %{
   Physics-Informed X-TFC applied to Stiff Chemical Kinetics
-  Test Case 3 - Chemical Akzo Nobel Problem
+  Test Case 2 - Chemical Akzo Nobel Problem
 
   Authors:
   Mario De Florio, PhD
