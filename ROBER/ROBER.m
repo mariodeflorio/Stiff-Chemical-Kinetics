@@ -3,13 +3,12 @@ clear; close all; clc;
 format long
 %--------------------------------------------------------------------------
 %{
-  Physics-Informed X-TFC appleid to Stiff Chemical Kinetics
-
+  Physics-Informed X-TFC applied to Stiff Chemical Kinetics
   Test Case 1 - The ROBER problem
 
   Authors:
-  Ing. Mario De Florio - PhD Student, The University of Arizona
-  Ing. Enrico Schiassi - PhD Student, The University of Arizona
+  Mario De Florio, PhD
+  Enrico Schiassi, PhD
 %}
 %%
 %--------------------------------------------------------------------------
