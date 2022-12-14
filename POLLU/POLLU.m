@@ -463,7 +463,9 @@ for i = 1:(n_t-1)
          
 end
 
-xtfc_elapsedtime = toc(tstart) 
+xtfc_elapsedtime = toc(tstart) ;
+
+fprintf(' The elapsed time for for x-tfc is: %g \n', xtfc_elapsedtime )
 
 %% =======================================
 % MATLAB ode15s solver
@@ -474,7 +476,9 @@ options = odeset('RelTol',IterTol);
 
 tStart = tic;
 [t_15s,y_15s] = ode15s(@pollu_ode15s_function, t_tot',y0_ode15s,options);
-ode15s_elapsedtime = toc(tStart) 
+ode15s_elapsedtime = toc(tStart) ;
+
+fprintf(' The elapsed time for for ode15s is: %g \n', ode15s_elapsedtime )
 
 %% errors
 
