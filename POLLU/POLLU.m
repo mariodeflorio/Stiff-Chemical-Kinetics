@@ -465,7 +465,7 @@ end
 
 xtfc_elapsedtime = toc(tstart) ;
 
-fprintf(' The elapsed time for for x-tfc is: %g \n', xtfc_elapsedtime )
+fprintf('The elapsed time for x-tfc is: %g \n', xtfc_elapsedtime )
 
 %% =======================================
 % MATLAB ode15s solver
@@ -478,7 +478,7 @@ tStart = tic;
 [t_15s,y_15s] = ode15s(@pollu_ode15s_function, t_tot',y0_ode15s,options);
 ode15s_elapsedtime = toc(tStart) ;
 
-fprintf(' The elapsed time for for ode15s is: %g \n', ode15s_elapsedtime )
+fprintf('The elapsed time for ode15s is: %g \n', ode15s_elapsedtime )
 
 %% errors
 
@@ -503,9 +503,8 @@ err_ode15s_18 = abs(y_15s(:,18) - y18) ;
 err_ode15s_19 = abs(y_15s(:,19) - y19) ;
 err_ode15s_20 = abs(y_15s(:,20) - y20) ;
 
-fprintf(' The average training error for X-TFC is: %g \n', mean(training_err_vec) )
-% fprintf(' The average training error for ode15s is: %g \n', training_err_ode15s )
-
+fprintf('\n')
+fprintf('The average training error for X-TFC is: %g \n', mean(training_err_vec) )
 
 
 figure(1)
