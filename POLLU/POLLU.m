@@ -8,7 +8,6 @@ format long
 
   Authors:
   Mario De Florio, PhD
-  Enrico Schiassi, PhD
 %}
 %%
 %--------------------------------------------------------------------------
@@ -20,8 +19,6 @@ start = tic;
 
 t_0 = 0; % initial time
 t_f = 60; % final time
-
-%t_query = [0.1,1,2,5,10,20,30,40];
 
 n_x = 10;    % Discretization order for x (-1,1)
 L = 10;    % number of neurons
